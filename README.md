@@ -95,6 +95,8 @@ python plots.py
 ## Autor
 
 João Craveiro 55108
+
 Universidade da Beira Interior  
+
 Unidade Curricular: Interpretabilidade e Causalidade (2025/26)
 
