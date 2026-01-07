@@ -19,15 +19,25 @@ O projeto avalia cinco métodos de interpretabilidade (Grad-CAM, Occlusion, Inte
 ## Estrutura do Repositório
 
 ├── main.py # Treino, validação, teste e gravação do modelo
+
 ├── config.py # Configurações globais (seeds, paths, hiperparâmetros)
+
 ├── model.py # CNN simples (baseline)
+
 ├── pretrained_model.py # ResNet18 pré-treinada adaptada a 1 canal
+
 ├── data_loader.py # DataLoader para modelo simples
+
 ├── data_loader_pretrained.py # DataLoader para modelo pré-treinado
+
 ├── interpret_methods.py # Implementação dos métodos de interpretabilidade
+
 ├── metrics.py # Métricas Avg-Sensitivity e Complexity
+
 ├── evaluate.py # Avaliação quantitativa das explicações
+
 ├── plots.py # Geração de gráficos e rankings
+
 └── README.md
 
 
@@ -71,11 +81,14 @@ Valores mais baixos indicam melhor desempenho em ambas as métricas.
 ## Como Executar
 
 ### 1. Treinar o modelo
+```bash
 python main.py
 
 ### 2. Avaliar interpretabilidade
+```bash
 python evaluate.py
 
 ### 3. Gerar gráficos e rankings
+```bash
 python plots.py
 
