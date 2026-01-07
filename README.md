@@ -81,14 +81,20 @@ Valores mais baixos indicam melhor desempenho em ambas as métricas.
 ## Como Executar
 
 ### 1. Treinar o modelo
-```bash
 python main.py
 
 ### 2. Avaliar interpretabilidade
-```bash
 python evaluate.py
 
 ### 3. Gerar gráficos e rankings
-```bash
 python plots.py
+
+
+---
+
+## Autor
+
+João Craveiro 55108
+Universidade da Beira Interior  
+Unidade Curricular: Interpretabilidade e Causalidade (2025/26)
 
